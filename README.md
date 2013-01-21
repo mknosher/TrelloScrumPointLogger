@@ -13,6 +13,7 @@ appSettings.json
 
 To use this app, you will need to create "appSettings.json" in the root directory of the project. It stores the private Trello information as well as general config. Below is a guide to the structure of this file... 
 
+```json
 {
     "apiKey" : "<your_trello_api_key>",
     "oAuthSecret" : "<your_trello_oauth_secret>",
@@ -20,5 +21,6 @@ To use this app, you will need to create "appSettings.json" in the root director
     "domain" : "<your_domain>",
     "port" : <your_port>
 }
+```
 
 You will need to generate your Trello api key and oauth secret using https://trello.com/1/appKey/generate.
